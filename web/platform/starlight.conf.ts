@@ -1,8 +1,9 @@
 import starlightUtils from "@lorenzo_lewis/starlight-utils";
+import type { StarlightUserConfig } from "@astrojs/starlight/types";
 
 const docsRoot = "/docs";
 
-export const starlightConfig = {
+export const starlightConfig: StarlightUserConfig = {
   title: "NativeLink Docs",
   components: {
     PageFrame: "/src/components/starlight/PageFrame.astro",
